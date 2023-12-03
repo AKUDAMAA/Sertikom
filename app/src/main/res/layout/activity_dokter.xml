@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounglogin"
+    tools:context=".DokterActivity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inria_sans_bold"
+        android:text="Search Result for 'Dokter Otak'"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout4"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="600dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="600dp"
+            tools:ignore="MissingConstraints">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="353dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="858dp"
+                    android:backgroundTint="#302B2B"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/buttton33"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="105dp"
+                        android:background="@drawable/rounded_corner"
+                        android:text="Chat Sekarang"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/texxtViiew24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="75dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Rp.20.000/Per Sesi"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/texxtViiew23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Spesialis Otak"
+                        android:textColor="#79D3D7" />
+
+                    <TextView
+                        android:id="@+id/texxtViiew19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="16dp"
+                        android:elevation="70dp"
+                        android:fontFamily="@font/inria_sans_bold"
+                        android:text="Dr. Dimas Ukin .Phd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/carrdView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="118dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="18dp"
+                        android:backgroundTint="#00FFFFFF"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/immageViiew14"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/dimas" />
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="353dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="690dp"
+                    android:backgroundTint="#302B2B"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/button311"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="105dp"
+                        android:background="@drawable/rounded_corner"
+                        android:text="Chat Sekarang"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textVieew224"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="75dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Rp.20.000/Per Sesi"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textVieww223"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Spesialis Otak"
+                        android:textColor="#79D3D7" />
+
+                    <TextView
+                        android:id="@+id/texxtViewww19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="16dp"
+                        android:elevation="70dp"
+                        android:fontFamily="@font/inria_sans_bold"
+                        android:text="Dr. Amba Tu Kam .Phd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardVieew123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="118dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="18dp"
+                        android:backgroundTint="#00FFFFFF"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageViiew146"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/ambatu" />
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="353dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="350dp"
+                    android:backgroundTint="#302B2B"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/button31"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="105dp"
+                        android:background="@drawable/rounded_corner"
+                        android:text="Chat Sekarang"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textVieew24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="75dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Rp.20.000/Per Sesi"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textVieww23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Spesialis Otak"
+                        android:textColor="#79D3D7" />
+
+                    <TextView
+                        android:id="@+id/textViewww19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="16dp"
+                        android:elevation="70dp"
+                        android:fontFamily="@font/inria_sans_bold"
+                        android:text="Dr. Emily Watson .Phd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="118dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="18dp"
+                        android:backgroundTint="#00FFFFFF"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView146"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/emily" />
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="353dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="522dp"
+                    android:backgroundTint="#302B2B"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/button33"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="105dp"
+                        android:background="@drawable/rounded_corner"
+                        android:text="Chat Sekarang"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textViiew24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="75dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Rp.20.000/Per Sesi"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textViiew23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Spesialis Otak"
+                        android:textColor="#79D3D7" />
+
+                    <TextView
+                        android:id="@+id/textViiew19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="16dp"
+                        android:elevation="70dp"
+                        android:fontFamily="@font/inria_sans_bold"
+                        android:text="Dr. Sir Cartier .Phd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="118dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="18dp"
+                        android:backgroundTint="#00FFFFFF"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageViiew14"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/sircartier" />
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="353dp"
+                    android:layout_height="160dp"
+                    android:backgroundTint="#302B2B"
+                    app:cardCornerRadius="20dp">
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="105dp"
+                        android:background="@drawable/rounded_corner"
+                        android:text="Chat Sekarang"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textVieww24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="75dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Rp.20.000/Per Sesi"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textViieww23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Spesialis Otak"
+                        android:textColor="#79D3D7" />
+
+                    <TextView
+                        android:id="@+id/textVieww19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="16dp"
+                        android:elevation="70dp"
+                        android:fontFamily="@font/inria_sans_bold"
+                        android:text="Dr. Johny Dang .Phd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView78"
+                        android:layout_width="wrap_content"
+                        android:layout_height="118dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="18dp"
+                        android:backgroundTint="#00FFFFFF"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageVieww14"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/johnydang" />
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="353dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="172dp"
+                    android:backgroundTint="#302B2B"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="135dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="190dp"
+                        android:layout_marginTop="105dp"
+                        android:background="@drawable/rounded_corner"
+                        android:text="Chat Sekarang"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="75dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Rp.20.000/Per Sesi"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="45dp"
+                        android:fontFamily="@font/inria_sans"
+                        android:text="Spesialis Otak"
+                        android:textColor="#79D3D7" />
+
+                    <TextView
+                        android:id="@+id/textView19"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="135dp"
+                        android:layout_marginTop="16dp"
+                        android:elevation="70dp"
+                        android:fontFamily="@font/inria_sans_bold"
+                        android:text="Dr. Otto Octavious .Phd"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="118dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="18dp"
+                        android:backgroundTint="#00FFFFFF"
+                        app:cardCornerRadius="10dp">
+
+                        <ImageView
+                            android:id="@+id/imageView14"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:src="@drawable/smilingdoctor" />
+                    </androidx.cardview.widget.CardView>
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="16dp"
+            android:elevation="70dp"
+            android:src="@drawable/menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="343dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="#333030"
+            app:cardCornerRadius="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="19dp"
+                    android:fontFamily="@font/inria_sans"
+                    android:text="Dokter Otak"
+                    android:textColor="#ADFFFFFF"
+                    android:textSize="17sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView13"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="11dp"
+                    android:src="@drawable/search"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            app:cardCornerRadius="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/hell" />
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
